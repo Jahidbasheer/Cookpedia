@@ -7,7 +7,7 @@ import { RecipeModel } from '../admin/model/recipeModel';
 })
 export class Api {
 
-  server_url = "http://localhost:3000"
+  server_url = "https://cookpedia-backend-jg9v.onrender.com"
 
   constructor(private http: HttpClient) { }
 
